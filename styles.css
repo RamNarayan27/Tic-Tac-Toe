@@ -1,0 +1,26 @@
+.title{
+    color: chocolate;
+    margin-bottom: 5%;
+    font-size: 400%;
+}
+
+.img{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 5%;
+}
+
+.play-but{
+    font-size: 250%;
+    background-color: brown;
+    color: chocolate;
+    display: inline-block;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+.play-but:hover{
+    background-color: darkblue;
+    color: darkcyan;
+}
