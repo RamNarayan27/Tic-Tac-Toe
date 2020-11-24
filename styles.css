@@ -11,6 +11,8 @@
 }
 
 .play-but{
+    position: fixed;
+    bottom: 10%;
     font-size: 250%;
     background-color: brown;
     color: chocolate;
@@ -23,4 +25,67 @@
 .play-but:hover{
     background-color: darkblue;
     color: darkcyan;
+}
+
+@keyframes board-l-1{
+    0% {background-color: black; height: 0px; width: 3px;}
+    100% {background-color: black; height: 300px; width: 3px;}
+}
+
+@keyframes board-l-2{
+    0% {background-color: black; height: 0px; width: 3px;}
+    100% {background-color: black; height: 300px; width: 3px;}
+}
+
+@keyframes board-l-3{
+    0% {background-color: black; height: 3px; width: 0px;}
+    100% {background-color: black; height: 3px; width: 300px;}
+}
+
+@keyframes board-l-4{
+    0% {background-color: black; height: 3px; width: 0px;}
+    100% {background-color: black; height: 3px; width: 300px;}
+}
+
+.board-ani-1{
+    position: fixed;
+    left:45%;
+    top:20%;
+    animation-name: board-l-1;
+    animation-duration: 1.2s;
+    animation-iteration-count: initial;
+    animation-fill-mode: forwards;
+}
+
+.board-ani-2{
+    position: fixed;
+    left: 53%;
+    top: 20%;
+    animation-name: board-l-2;
+    animation-duration: 1.2s;
+    animation-delay: 1.2s;
+    animation-iteration-count: initial;
+    animation-fill-mode: forwards;
+}
+
+.board-ani-3{
+    position: fixed;
+    left:38%;
+    top:35%;
+    animation-name: board-l-3;
+    animation-duration: 1.2s;
+    animation-delay: 2.4s;
+    animation-iteration-count: initial;
+    animation-fill-mode: forwards;
+}
+
+.board-ani-4{
+    position: fixed;
+    left:38%;
+    top: 51%;
+    animation-name: board-l-4;
+    animation-duration: 1.2s;
+    animation-delay: 3.6s;
+    animation-iteration-count: initial;
+    animation-fill-mode: forwards;
 }
